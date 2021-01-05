@@ -1,0 +1,123 @@
+/* these codes increases the font size, changes the font, aligns the text and changes the clor to red. I did this as it is for the title of the website */
+h1 {
+  font-size: 7em;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-weight: 400px;
+  color: red;
+margin-top: 10px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+ }
+
+ /* the codes below increases the size of my font, the colour to white, the font and alligns the text. I did this as it will be used for all the names of the cast which need to be some what bold.  */
+h2 {
+font-size: 2em;
+font-family: 'Teko', sans-serif;
+font-weight: 400px;
+text-align: center;
+color: white;
+padding: 0px;
+margin: 0px;
+}
+/* code below adds no padding and margin for a tighter fit*/
+nav{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+ /* the code makes the home and cast tag side by side which makes the website more clean*/
+nav li{
+    display:inline;
+}
+
+ /* these codes adds a white border around the anchor text and changes the font of it and the size. I did this as it makes the website more visually appealing*/
+.border {
+
+    margin-top: 20px;
+    display:inline-block;
+    padding:10px;
+    color: white;
+    border: 3px double white;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Teko', sans-serif; }
+
+/* these codes is for all my paragraphs as I want them all to be the same. this changes the color to white, adds a font and gives a red border. I did this to follow a red and white theme which connotates the face paint of the joker*/
+p {
+color: white;
+font-size: 1.5em;
+text-align: center;
+font-family: 'Lato', sans-serif;
+border: 2px solid red;
+}
+
+/* these codes allow the video to fit into the container which means on any device the video will not be cropped out and will fit the screen */
+.video-container {
+object-fit: contain;}
+/* these codes changes the font, colour (white), border (lime) and aligns the text. this is for my footer, the reason for the lime color is to add a change to the colour themes as red and white may be too repetitive */
+pre {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid lime;
+
+}
+
+
+
+.name1 {
+margin-top: 20px;
+}
+/* these codes makes the image float left allowing the paragraph to be side by side*/
+.image1 {float: left;
+margin-top: 25px;}
+
+.responsive {
+/* these codes makes the image responsive the the size of the website is viewed at */
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+ }
+
+.info1 { text-align: center;}
+
+}
+
+
+/* this code centers the aduio clip, I did this so it fits the centered theme I have and look visually appealing*/
+.joaaud {  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 20px; }
+
+.name2 {margin-top: 20px;}
+
+
+.image2 {float: left;
+margin-top: 25px;
+}
+
+.info2 { text-align: center;
+}
+/* these codes allows audio file to be centered underneath the paragraph */
+.robaud {  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 30px; }
+
+.image3 {float: left;
+margin-top: 25px;
+}
+
+.name3 {margin-top: 20px;}
+
+.info3 { text-align: center;
+}
+
+.zazaud {  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 30px; }
